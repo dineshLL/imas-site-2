@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mig DB&trade;</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="assets/images/MigDB.png">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link href="assets/css/animate.min.css" rel="stylesheet"> 
+        <link href="assets/css/lightbox.css" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+        <link id="css-preset" href="assets/css/presets/preset3.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+        <!--.preloader-->
+        <div class="preloader"> <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i></div>
+        <!--/.preloader-->
+
+        <header id="home">
+
+            <div class="main-nav">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="">
+                            <h1><img class="img-responsive" src="assets/images/MigDB.png" alt="logo"></h1>
+                        </a>                    
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">                 
+                            <li class="scroll"><a class="nav-link" href="home.html">Home</a></li>
+                            <li class="scroll"><a class="nav-link-active" href="domain.html">Domain</a></li> 
+                            <li class="scroll"><a class="nav-link" href="milestone.html">Milestone</a></li>                     
+                            <li class="scroll"><a class="nav-link" href="documents.html">Documents</a></li>
+                            <li class="scroll"><a class="nav-link" href="slide.html">Slides</a></li>
+                            <li class="scroll"><a class="nav-link" href="team.html">Team</a></li>
+                            <li class="scroll"><a class="nav-link" href="contact.html">Contact</a></li>       
+                        </ul>
+                    </div>
+                </div>
+            </div><!--/#main-nav-->
+        </header><!--/#home-->
+
+        <style>
+            .nav-link-active {
+                background-color: #177F5D;
+            }
+        </style>
+		
+<!-- -------------------------------------------- End of the header ----------------------------------->
+
+<section id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+                <h2>Domain of the Project</h2>
+                <p> 
+                    Relational database has been the main mode of database management for the last few decades and is still used 
+                    widely all around the world. But when it comes to big data, which consists of massive volume and variety in both type 
+                    and structure of data, the strictly structured schema-based relational database is an unsuited solution. Due to these 
+                    issues, NoSQL(Not Only SQL) comes in to picture. It has high flexibility, scalability and high performance. Due to those 
+                    advantages, many users including those who are facing the issues in the relational databases currently are turning to migrating from relational database 
+                    NoSQL, seeking the solutions for these issues. With NoSQL gaining popularity as a much more flexible alternative to relational databases, many researches have been conducted 
+                    the feasibility and issues of the migration of an existing relational database to a NoSQL database
+                </p>
+            </div>
+        </div>
+
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#survey">Literature Survey</a></li>
+            <li><a data-toggle="tab" href="#research-gap">Research Gap</a></li>
+            <li><a data-toggle="tab" href="#research-problem">Research Problem</a></li>
+            <li><a data-toggle="tab" href="#research-objectives">Research Objectives</a></li>
+            <li><a data-toggle="tab" href="#research-highlevel">High Level Diagram</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="row tab-pane fade in active" id="survey">
+                <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                    <div class="entry-header">
+                        <h3> &nbsp; </h3>
+                    </div>
+                    <div class="entry-content">
+                        <ul class="list-group">
+                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                                <p>
+                                    In a research [3] conducted by Gansen Zhao, Weichai Huang, Shunlin Liang, Yong Tang, it has been verified that MongoDB is capable of performing relational calculus as it is in relational databases and by providing examples, 
+                                    it has been concluded that theoretically it is easy to migrate data from a relational database to MongoDB .
+                                </p>
+                            </li>
+                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                                <p>
+                                    The proceeding research [4] by Gansen Zhao, Weichai Huang, Shunlin Liang and Yong Tang provides a mechanism to support join operations in relational 
+                                    databases and to improve query efficiency when migrating to MongoDB by proposing an algorithm based on the nested method.
+                                </p>
+                            </li>
+                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <a href="http://www.techgene.com/it-solutions/data-migration/"><img class="img-responsive" src="https://media.licdn.com/media/p/6/005/068/180/3ee8e26.png" alt=""></a> 
+                                    </div>
+                                    <div class="col-sm-8">
+                                        Pelica Migrator is one of the most known tool. Pelica Migrator which was launched in 2014 by the organization Techgene, facilitates the users to migrate data from any RDBMS (Relational Database Management System) including 
+                                        MySQL, Oracle, SQL Server 2008, PostgreSQL, DB2 and Sybase to MongoDB. The tool migrates relational database relations/tables into embedded collections or documents in MongoDB and also replicates the relational database data into MongoDB.
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <a href="http://www.mongodbmanager.com/"><img class="img-responsive" src="http://www.mongodbmanager.com/wp-content/uploads/2015/06/header-logo.png" alt=""></a> 
+                                    </div>
+                                    <div class="col-sm-8">
+                                        NoSQL Manager for MongoDB Professional is a sound management, administration and development tool for MongoDB. 
+                                        The tool facilitates users to create collections, add/ modify documents within collections, add/ modify fields within 
+                                        documents using the GUI while also providing the ability to create functions, users and user roles. NoSQL Manager for 
+                                        MongoDB provides the feature of importing data from both CSV and JSON files alongside functionality of exporting data to a 
+                                        CSV, JSON and XML file. The application is also capable of copying an existing database to another database.
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        RoboMongo is a shell-centric cross-platform open source software which acts as a Management tool for MongoDB and thus does not have a capability of 
+                                        migrating an existing relational database to MongoDB. The graphical tool provides facilities to create and modify collections, insert documents to 
+                                        collections while also providing the ability to update or delete documents within collections. RoboMongo presents three ways of displaying collections 
+                                        such as tree-mode, where objects are displayed in a hierarchical subdivided structure, table-mode, in which objects are presented in a table and text-mode 
+                                        where objects can be viewed in a JSON-like format. Even though RoboMongo is a good graphical management tool for MongoDB, it is still difficult to be used by a novice in 
+                                        MongoDB as the tool requires users to have knowledge on JSON and MongoDB commands.
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a href="https://robomongo.org/"><img class="img-responsive" src="https://robomongo.org/static/robomongo-1024x1024-bfaf4052.png" alt=""></a> 
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                                <div class="row">
+                                    <div class="col-sm-1">
+                                        <a href=""><img class="img-responsive" src="https://s3.amazonaws.com/cloud.ohloh.net/attachments/65162/mongo-shield_med.png" alt=""></a> 
+                                    </div>
+                                    <div class="col-sm-11">
+                                        UMongo is an admin GUI management tool for MongoDB. The tool allows users to create and modify databases, create and modify collections while also 
+                                        enabling users to insert, update, and delete documents. UMongo also provides users sharding options to enable sharding, add shard and to view shard collections. 
+                                        A GUI document builder is provided by the tool while also facilitating users to import and export data to various formats like JSON, BSON and CSV. Nevertheless, 
+                                        the tool UMongo does not have sufficient user-friendliness as the tool necessitates good skills of JSON and MongoDB commands from the user.
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <a href="http://www.querymongo.com/"><img class="img-responsive" src="assets/images/querymongo.jpg" alt=""></a> 
+                                    </div>
+                                    <div class="col-sm-8">
+                                        Query Mongo, while being the most popular query translator, is capable of converting MySQL queries into MongoDB syntaxes. 
+                                        However, whilst the web application translated queries efficiently with managing aggregate functions really well, it is only capable of converting SQL SELECT queries and does not support table joins.
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        Query Mongo, while being the most popular query translator, is capable of converting MySQL queries into MongoDB syntaxes. 
+                                        However, whilst the web application translated queries efficiently with managing aggregate functions really well, 
+                                        it is only capable of converting SQL SELECT queries and does not support table joins.
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a href="http://klaus.dk/sqltomongodb/"><img class="img-responsive" src="assets/images/kluas.jpg" alt=""></a> 
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="row tab-pane fade" id="research-gap">
+                <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                    <div class="entry-header">
+                        <h3> &nbsp; </h3>
+                    </div>
+                    <div class="entry-content">
+                        <table class="table table-hover">
+                            <thead style="background-color: #1D9E74;color: #ffffff">
+                                <tr>
+                                    <th>Features</th>
+                                    <th>Research Paper</th>
+                                    <th>Pelica Migrator</th>
+                                    <th>No-SQL Manager</th>
+                                    <th>Robo Mongo</th>
+                                    <th>UMongo</th>
+                                    <th>Admin Mongo</th>
+                                    <th>Query Mongo</th>
+                                    <th>MigDB</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Evaluate data changes to the schema</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>Migration of table structures</td>
+                                    <td></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>Migration of data</td>
+                                    <td></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>Selection of most appropriate mapping option from embedding or referencing</td>
+                                    <td>(Only embedding)</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>User interactions to mapping</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>Graphical management tool for MongoDB</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Query conversion with joining</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>(Only select queries)</td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>Graphical query generation</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>Does not require Mongo or JSON knowledge</td>
+                                    <td></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row tab-pane fade" id="research-problem">
+                <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                    <div class="entry-header">
+                        <h3> &nbsp; </h3>
+                    </div>
+                    <div class="entry-content">
+                        The main requirement of this research is to create a system that migrates existing relational database to a MongoDB and manage migrated database with user friendly GUI without requiring any MongoDB related knowledge. As identified in the literature review, there are some crucial limitations in the existing literature which are to be addressed in the indented system. 
+                        The major focus of the MigDB system is to map SQL relationships into mongo database
+                    </div>
+                </div>
+            </div>
+
+            <div class="row tab-pane fade" id="research-objectives">
+                <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                    <div class="entry-header">
+                        <h3><a href="#"> Main Objective </a> </h3>
+                    </div>
+                    <div class="entry-content">
+                        The key objective of this research is make it possible to convert relational database dump into NOSQL (initially MongoDB) dump together with existing data, table structure, relationships and existing database queries consuming incremental machine knowledge and human knowledge.
+                    </div>
+                </div>
+                <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                    <div class="entry-header">
+                        <h3> <a href="#"> Specific Objective </a> </h3>
+                    </div>
+                    <div class="entry-content">
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-sm-11">
+                                Create connection management module to establish connection with MySQL database and MongoDB database in localhost. This module has capability to hold multiple database connections.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-sm-11">
+                                Create module to analyze relational database dump file and understand table structure, references and data. Then map those information into intermediate JSON file.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-sm-11">
+                                Design an interactive User Interface to illustrate complete table structure in well understandable manner and record all changes user expected to have in table structure.
+                                This module has knowledge to evaluate user changes and identify any violations and report user to recheck changes before submitting. If there are no any violations this module will modify system readable intermediate file according to the user changes.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-sm-11">
+                                Create a Neural network as a separate module to predict about database mapping technique with considering references, column count and data types of columns. This module has capability to trigger scheduled Neural Network supervised learning sessions using a CSV file. This module has capability to retrieve information from Neural 
+                                Network and send to other modules through a restful interface.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-sm-11">
+                                Provide definition for the mapping of 1 to 1 relationships in relational database tables into NOSQL collections with data migration.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-sm-11">
+                                Provide definition for the mapping of 1 to many relationships in relational database tables into NOSQL collections with data migration.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-sm-11">
+                                Provide definition for the mapping of many to many relationships in relational database tables to NOSQL collections with data migration.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-sm-11">
+                                Design an interactive user interface to illustrate collection structure generated by the system and enable user to change it by applying user experience on database mapping in user friendly way. This module has capability to evaluate user’s changes on mapping and report violations to the user. If there are no any violations, catch user changes on mapping and update CSV file which use to learn Neural Network.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-sm-11">
+                                Create individual module to convert existing reference mapping into embedded mapping and update database. This module has subcomponent to convert existing embedded mapping into reference mapping.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-sm-11">
+                                Create module to access NOSQL database on localhost and graphically represent data to the user and enable user to manipulate data and save changes.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-sm-11">
+                                Design an interactive user interface to generate new database queries in user friendly manner. This interface has another functionality to get existing database query as input from user and convert it into NOSQL query in user friendly approach.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-sm-11">
+                                Create user friendly web portal to enable user for accessing above services with getting continuous user interaction. This web portal has capabilities to handle payments, file upload and download, user management and file version management.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row tab-pane fade" id="research-highlevel">
+                <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                    <div class="entry-header">
+                        <h3> &nbsp; </h3>
+                    </div>
+                    <div class="entry-content">
+                        <img class="img-responsive" src="assets/images/highlevel.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</section><!--/#blog-->
+
+<!-- -------------------------------------------- Begin of the footer ----------------------------------->
+
+<footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="container text-center">
+            <div class="footer-logo">
+                <a href="index.html"><img class="img-responsive" src="assets/images/MigDB.png" alt=""></a>
+            </div>
+            <div class="social-icons">
+                <ul>
+                    <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li> 
+                    <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a class="tumblr" href="#"><i class="fa fa-tumblr-square"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="http://migdb.org" target="_blank"><p>&copy; 2016 MigDB&trade;, Org. All Rights Reserved.</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="assets/js/jquery.inview.min.js"></script>
+<script type="text/javascript" src="assets/js/wow.min.js"></script>
+<script type="text/javascript" src="assets/js/mousescroll.js"></script>
+<script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+<script type="text/javascript" src="assets/js/jquery.countTo.js"></script>
+<script type="text/javascript" src="assets/js/lightbox.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
