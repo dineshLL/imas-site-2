@@ -56,21 +56,15 @@
             }
         </style>
 		
-<!-- -------------------------------------------- End of the header ----------------------------------->
-
 <section id="blog">
     <div class="container">
         <div class="row">
             <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
                 <h2>Domain of the Project</h2>
                 <p> 
-                    Relational database has been the main mode of database management for the last few decades and is still used 
-                    widely all around the world. But when it comes to big data, which consists of massive volume and variety in both type 
-                    and structure of data, the strictly structured schema-based relational database is an unsuited solution. Due to these 
-                    issues, NoSQL(Not Only SQL) comes in to picture. It has high flexibility, scalability and high performance. Due to those 
-                    advantages, many users including those who are facing the issues in the relational databases currently are turning to migrating from relational database 
-                    NoSQL, seeking the solutions for these issues. With NoSQL gaining popularity as a much more flexible alternative to relational databases, many researches have been conducted 
-                    the feasibility and issues of the migration of an existing relational database to a NoSQL database
+                    This research mainly focuses on the development of applications which makes use of the microservices architecture. 
+                    The research component of the project would be to find out whether it is possible scale the micro services.
+                     The domain which it focuses on is cloud computing.With the growth of the internet infrastructure it has become necessary to introduce methods of auto scaling the systems based on requirements. There now exist systems which do not follow the monolith architecture, but rather distribute them into multiple modules / components that will perform a highly focused and completely decoupled task such as Unix Commands ex:- ls, While giving out a complete Business Scenario by combining each of these components together. This architecture is known as the micro service architecture. This architecture is on standard deployed onto a system known as the docker. By normal standards, a single microservice will be deployed as a single docker container but it is possible to run multiple microservices in a single container as well. The problem which we had identified with the existing system is that it does not allow the system to be horizontally scalable. That is if the load for a particular docker VM increases, another instance will need to be created on a distributed system to balance out the processing. The current system needs heavy human interaction to manage each of these docker containers to achieve the expected performance of the system , Our proposed system will be to implement a load balancer which would be able to automatically scale the containers while not requiring any human interaction at all and distribute the load among multiple running instances of the  containers based on the analysis performed from the data gathered using our system.
                 </p>
             </div>
         </div>
@@ -93,91 +87,23 @@
                         <ul class="list-group">
                             <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                                 <p>
-                                    In a research [3] conducted by Gansen Zhao, Weichai Huang, Shunlin Liang, Yong Tang, it has been verified that MongoDB is capable of performing relational calculus as it is in relational databases and by providing examples, 
-                                    it has been concluded that theoretically it is easy to migrate data from a relational database to MongoDB .
+                                    With the introduction of the micro services architecture researchers came to the understanding that this is the most anticipated architecture for the applications which followed service orientation. But with the advantages it brought complexity to the management of the application.so researchers started to find ways to eliminate this disadvantages from the architecture because they have identified micro services architecture is worth finding solutions for its disadvantages than throwing away and use the monoliths again. so that, companies like Google also initiated projects to solve this matter, thus there are some open source products to manage micro service applications.
                                 </p>
                             </li>
                             <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                                 <p>
-                                    The proceeding research [4] by Gansen Zhao, Weichai Huang, Shunlin Liang and Yong Tang provides a mechanism to support join operations in relational 
-                                    databases and to improve query efficiency when migrating to MongoDB by proposing an algorithm based on the nested method.
+                                    With the introduction of the micro services architecture researchers came to the understanding that this is the most anticipated architecture for the applications which followed service orientation. But with the advantages it brought complexity to the management of the application.so researchers started to find ways to eliminate this disadvantages from the architecture because they have identified micro services architecture is worth finding solutions for its disadvantages than throwing away and use the monoliths again. so that, companies like Google also initiated projects to solve this matter, thus there are some open source products to manage micro service applications, but still the comparatively smaller companies would not go for a micro services implementation because the available products are not in mature enough to be used on a wide scale.
                                 </p>
                             </li>
                             <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <a href="http://www.techgene.com/it-solutions/data-migration/"><img class="img-responsive" src="https://media.licdn.com/media/p/6/005/068/180/3ee8e26.png" alt=""></a> 
-                                    </div>
-                                    <div class="col-sm-8">
-                                        Pelica Migrator is one of the most known tool. Pelica Migrator which was launched in 2014 by the organization Techgene, facilitates the users to migrate data from any RDBMS (Relational Database Management System) including 
-                                        MySQL, Oracle, SQL Server 2008, PostgreSQL, DB2 and Sybase to MongoDB. The tool migrates relational database relations/tables into embedded collections or documents in MongoDB and also replicates the relational database data into MongoDB.
-                                    </div>
-                                </div>
+                                <p>
+                                    Cloud computing architectures are inherently parallel, distributed and serve the needs of multiple clients in different scenarios. This distributed architecture deploys resources distributive to deliver services efficiently to users in different geographical channels. Clients in a distributed environment generate request randomly in any processor. So the major drawback of this randomness is associated with task assignment. The unequal task assignment to the processor creates imbalance i.e., some of the processors are overloaded and some of them are under loaded. The objective of load balancing is to transfer the load from overloaded process to under loaded process transparently. A research has been done on comparison of four popular load balancing algorithms of virtual machine in cloud computing, have discussed starting with dividing the types of algorithms as static and dynamic.
+                                </p>
                             </li>
                             <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <a href="http://www.mongodbmanager.com/"><img class="img-responsive" src="http://www.mongodbmanager.com/wp-content/uploads/2015/06/header-logo.png" alt=""></a> 
-                                    </div>
-                                    <div class="col-sm-8">
-                                        NoSQL Manager for MongoDB Professional is a sound management, administration and development tool for MongoDB. 
-                                        The tool facilitates users to create collections, add/ modify documents within collections, add/ modify fields within 
-                                        documents using the GUI while also providing the ability to create functions, users and user roles. NoSQL Manager for 
-                                        MongoDB provides the feature of importing data from both CSV and JSON files alongside functionality of exporting data to a 
-                                        CSV, JSON and XML file. The application is also capable of copying an existing database to another database.
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-                                <div class="row">
-                                    <div class="col-sm-8">
-                                        RoboMongo is a shell-centric cross-platform open source software which acts as a Management tool for MongoDB and thus does not have a capability of 
-                                        migrating an existing relational database to MongoDB. The graphical tool provides facilities to create and modify collections, insert documents to 
-                                        collections while also providing the ability to update or delete documents within collections. RoboMongo presents three ways of displaying collections 
-                                        such as tree-mode, where objects are displayed in a hierarchical subdivided structure, table-mode, in which objects are presented in a table and text-mode 
-                                        where objects can be viewed in a JSON-like format. Even though RoboMongo is a good graphical management tool for MongoDB, it is still difficult to be used by a novice in 
-                                        MongoDB as the tool requires users to have knowledge on JSON and MongoDB commands.
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <a href="https://robomongo.org/"><img class="img-responsive" src="https://robomongo.org/static/robomongo-1024x1024-bfaf4052.png" alt=""></a> 
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-                                <div class="row">
-                                    <div class="col-sm-1">
-                                        <a href=""><img class="img-responsive" src="https://s3.amazonaws.com/cloud.ohloh.net/attachments/65162/mongo-shield_med.png" alt=""></a> 
-                                    </div>
-                                    <div class="col-sm-11">
-                                        UMongo is an admin GUI management tool for MongoDB. The tool allows users to create and modify databases, create and modify collections while also 
-                                        enabling users to insert, update, and delete documents. UMongo also provides users sharding options to enable sharding, add shard and to view shard collections. 
-                                        A GUI document builder is provided by the tool while also facilitating users to import and export data to various formats like JSON, BSON and CSV. Nevertheless, 
-                                        the tool UMongo does not have sufficient user-friendliness as the tool necessitates good skills of JSON and MongoDB commands from the user.
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <a href="http://www.querymongo.com/"><img class="img-responsive" src="assets/images/querymongo.jpg" alt=""></a> 
-                                    </div>
-                                    <div class="col-sm-8">
-                                        Query Mongo, while being the most popular query translator, is capable of converting MySQL queries into MongoDB syntaxes. 
-                                        However, whilst the web application translated queries efficiently with managing aggregate functions really well, it is only capable of converting SQL SELECT queries and does not support table joins.
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-                                <div class="row">
-                                    <div class="col-sm-8">
-                                        Query Mongo, while being the most popular query translator, is capable of converting MySQL queries into MongoDB syntaxes. 
-                                        However, whilst the web application translated queries efficiently with managing aggregate functions really well, 
-                                        it is only capable of converting SQL SELECT queries and does not support table joins.
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <a href="http://klaus.dk/sqltomongodb/"><img class="img-responsive" src="assets/images/kluas.jpg" alt=""></a> 
-                                    </div>
-                                </div>
+                                <p>
+                                        Static load balancing algorithms - is easily carried into execution and takes less time, which doesn't refer to the states of the load nodes, but it can be only used in certain specific conditions.
+                                </p>
                             </li>
                         </ul>
                     </div>
@@ -316,21 +242,35 @@
                         <h3> &nbsp; </h3>
                     </div>
                     <div class="entry-content">
-                        The main requirement of this research is to create a system that migrates existing relational database to a MongoDB and manage migrated database with user friendly GUI without requiring any MongoDB related knowledge. As identified in the literature review, there are some crucial limitations in the existing literature which are to be addressed in the indented system. 
-                        The major focus of the MigDB system is to map SQL relationships into mongo database
+                            Because of the operational complexity and the lacking of the required automation tools it has become very difficult to implement a micro service application so the smaller companies which do not possess the required skilled human resources, do not go for micro services even if they understand the importance of the architecture and the benefits. The main problem we are trying to solve is to give a more efficient approach in the management of a system that has been developed using the micro services architecture. The tools which are required for the management of a system developed using the micro services are not currently available in the market.
                     </div>
                 </div>
             </div>
 
             <div class="row tab-pane fade" id="research-objectives">
-                <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-                    <div class="entry-header">
-                        <h3><a href="#"> Main Objective </a> </h3>
-                    </div>
-                    <div class="entry-content">
-                        The key objective of this research is make it possible to convert relational database dump into NOSQL (initially MongoDB) dump together with existing data, table structure, relationships and existing database queries consuming incremental machine knowledge and human knowledge.
-                    </div>
-                </div>
+                    <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                            <div class="entry-header">
+                                <h3> <a href="#"> Main Objective </a> </h3>
+                            </div>
+                            <div class="entry-content">
+                                <div class="row">
+                                    <div class="col-sm-1">
+                                        <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-sm-11">
+                                            Manage micro service based applications by letting the application itself to be automatically scaled based on the usage patterns.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-1">
+                                        <i class="fa fa-share pull-right" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-sm-11">
+                                            Manage the orchestration of the micro services after initial deployment.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                 <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                     <div class="entry-header">
                         <h3> <a href="#"> Specific Objective </a> </h3>
@@ -341,7 +281,7 @@
                                 <i class="fa fa-share pull-right" aria-hidden="true"></i>
                             </div>
                             <div class="col-sm-11">
-                                Create connection management module to establish connection with MySQL database and MongoDB database in localhost. This module has capability to hold multiple database connections.
+                                Gather data from the web gateway for each individual application. This will be the requests that are being sent on to the application. A model will be using reinforced learning to monitor the requests being received and to predict the load for a particular time frame.
                             </div>
                         </div>
                         <div class="row">
@@ -349,7 +289,7 @@
                                 <i class="fa fa-share pull-right" aria-hidden="true"></i>
                             </div>
                             <div class="col-sm-11">
-                                Create module to analyze relational database dump file and understand table structure, references and data. Then map those information into intermediate JSON file.
+                                    Create a profiling system that could monitor the applications that are deployed onto the Docker individually.
                             </div>
                         </div>
                         <div class="row">
@@ -357,8 +297,7 @@
                                 <i class="fa fa-share pull-right" aria-hidden="true"></i>
                             </div>
                             <div class="col-sm-11">
-                                Design an interactive User Interface to illustrate complete table structure in well understandable manner and record all changes user expected to have in table structure.
-                                This module has knowledge to evaluate user changes and identify any violations and report user to recheck changes before submitting. If there are no any violations this module will modify system readable intermediate file according to the user changes.
+                                    From the profiling system it will be necessary to get the business scenarios that are being executed in a sequential manner.
                             </div>
                         </div>
                         <div class="row">
@@ -366,8 +305,7 @@
                                 <i class="fa fa-share pull-right" aria-hidden="true"></i>
                             </div>
                             <div class="col-sm-11">
-                                Create a Neural network as a separate module to predict about database mapping technique with considering references, column count and data types of columns. This module has capability to trigger scheduled Neural Network supervised learning sessions using a CSV file. This module has capability to retrieve information from Neural 
-                                Network and send to other modules through a restful interface.
+                                    The data from the profiling system will be used to predict the CPU load and other properties of the load to the system. The models will again be using reinforced learning for the models.
                             </div>
                         </div>
                         <div class="row">
@@ -375,7 +313,7 @@
                                 <i class="fa fa-share pull-right" aria-hidden="true"></i>
                             </div>
                             <div class="col-sm-11">
-                                Provide definition for the mapping of 1 to 1 relationships in relational database tables into NOSQL collections with data migration.
+                                    Based on the data gathered the system will automatically scale the Docker containers.
                             </div>
                         </div>
                         <div class="row">
@@ -383,7 +321,7 @@
                                 <i class="fa fa-share pull-right" aria-hidden="true"></i>
                             </div>
                             <div class="col-sm-11">
-                                Provide definition for the mapping of 1 to many relationships in relational database tables into NOSQL collections with data migration.
+                                    A Model will be created from the data that is collected from the business scenario models. This will be used for checking the micro service which will need to be most available when the system is deployed.
                             </div>
                         </div>
                         <div class="row">
@@ -399,7 +337,7 @@
                                 <i class="fa fa-share pull-right" aria-hidden="true"></i>
                             </div>
                             <div class="col-sm-11">
-                                Design an interactive user interface to illustrate collection structure generated by the system and enable user to change it by applying user experience on database mapping in user friendly way. This module has capability to evaluate user’s changes on mapping and report violations to the user. If there are no any violations, catch user changes on mapping and update CSV file which use to learn Neural Network.
+                                    A base model will need to be built which will use supervised learning from the previous models.
                             </div>
                         </div>
                         <div class="row">
@@ -407,31 +345,7 @@
                                 <i class="fa fa-share pull-right" aria-hidden="true"></i>
                             </div>
                             <div class="col-sm-11">
-                                Create individual module to convert existing reference mapping into embedded mapping and update database. This module has subcomponent to convert existing embedded mapping into reference mapping.
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-1">
-                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-sm-11">
-                                Create module to access NOSQL database on localhost and graphically represent data to the user and enable user to manipulate data and save changes.
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-1">
-                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-sm-11">
-                                Design an interactive user interface to generate new database queries in user friendly manner. This interface has another functionality to get existing database query as input from user and convert it into NOSQL query in user friendly approach.
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-1">
-                                <i class="fa fa-share pull-right" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-sm-11">
-                                Create user friendly web portal to enable user for accessing above services with getting continuous user interaction. This web portal has capabilities to handle payments, file upload and download, user management and file version management.
+                                    Build a UI for monitoring aspects of the applications that are deployed onto the Docker such as the usage patterns, CPU load etc. This will also include a platform which would make the deployment of micro services very much efficient and easy to achieve compared to existing system.
                             </div>
                         </div>
                     </div>
@@ -444,7 +358,7 @@
                         <h3> &nbsp; </h3>
                     </div>
                     <div class="entry-content">
-                        <img class="img-responsive" src="assets/images/highlevel.png" alt="">
+                        <img class="img-responsive" src="assets/images/ResearchImages/highLevel.png" alt="">
                     </div>
                 </div>
             </div>
