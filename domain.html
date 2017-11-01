@@ -58,7 +58,7 @@
 		
 <section id="blog">
     <div class="container">
-        <div class="row">
+        <!--<div class="row">
             <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
                 <h2>Domain of the Project</h2>
                 <p> 
@@ -67,10 +67,11 @@
                      The domain which it focuses on is cloud computing.With the growth of the internet infrastructure it has become necessary to introduce methods of auto scaling the systems based on requirements. There now exist systems which do not follow the monolith architecture, but rather distribute them into multiple modules / components that will perform a highly focused and completely decoupled task such as Unix Commands ex:- ls, While giving out a complete Business Scenario by combining each of these components together. This architecture is known as the micro service architecture. This architecture is on standard deployed onto a system known as the docker. By normal standards, a single microservice will be deployed as a single docker container but it is possible to run multiple microservices in a single container as well. The problem which we had identified with the existing system is that it does not allow the system to be horizontally scalable. That is if the load for a particular docker VM increases, another instance will need to be created on a distributed system to balance out the processing. The current system needs heavy human interaction to manage each of these docker containers to achieve the expected performance of the system , Our proposed system will be to implement a load balancer which would be able to automatically scale the containers while not requiring any human interaction at all and distribute the load among multiple running instances of the  containers based on the analysis performed from the data gathered using our system.
                 </p>
             </div>
-        </div>
+        </div>-->
 
         <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#survey">Literature Survey</a></li>
+            <li class="active"><a data-toggle="tab" href="#project-domain">Domain Of Project</a></li>
+            <li><a data-toggle="tab" href="#survey">Literature Survey</a></li>
             <li><a data-toggle="tab" href="#research-gap">Research Gap</a></li>
             <li><a data-toggle="tab" href="#research-problem">Research Problem</a></li>
             <li><a data-toggle="tab" href="#research-objectives">Research Objectives</a></li>
@@ -78,44 +79,57 @@
         </ul>
 
         <div class="tab-content">
-            <div class="row tab-pane fade in active" id="survey">
+            <div class="row tab-pane fade in active" id="project-domain">
                 <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                     <div class="entry-header">
-                        <h3> &nbsp; </h3>
+                            <h3> &nbsp; </h3>
                     </div>
                     <div class="entry-content">
-                        <ul class="list-group">
-                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-                                <p>
-                                    <h4>Round-Robin Scheduling Algorithm</h4>
-                                    Round-Robin Is only applicable to the circumstances in which all the nodes in cluster have the same processing ability, and it is the simplest one which could most easily be carried out. [5]
-
-                                </p>
-                            </li>
-                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-                                <p>
-                                    <h4>Weighted Round-Robin Scheduling Algorithm</h4>
-                                    Is designed to better handles servers with different processing capacities. Each server can be assigned a weight, an integer value that indicates the processing capacity.
-                                </p>
-                            </li>
-                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-                                <p>
-                                    <h4>SWIM</h4>
-                                    This is a protocol that was developed for checking the live status of the micro services individually. This is used for large scale process groups that is a collection of micro services. Each neighboring micro services will be receiving a heartbeat from the other to ensure that the live status of the micro service. This was developed because of scalability issues, of the traditional heartbeat protocols which strained the network as the no of micro services deployed increases with the increased network load, it compromises the response time of the application. That is it consumes the computational resources of the server. [6] 
-                                </p>
-                            </li>
-                            <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-                               <p>
-                                   <h4>Docker</h4>
-                                   In the research conducted by David Jaramillo, Duy V Nguyen and Robert Smart from Cloud Engineering Services [7], IBM has discussed the concepts in Micro services. They have mentioned the drawbacks of the monolith applications where almost all of the application developers or stakeholders having the considerable amount of attention and described about the areas which needed to be consider most when developing an application for any architectural design. They have identified “Micro services” architectural pattern as a solution to almost every mentioned issues. They have presented in a way of how micro services is a most beneficial solution compare with traditional monolith application where highly coupled component’s deployment and hardness of the scalability etc. 
-Since the Docker has been introduced they did analyze about the each component in Docker and explained how the Docker can help to build the applications and utilize the micro services’ core concepts etc. Even though Docker itself is not a silver bullet which can address every challenges of building a micro service architecture.
-
-                               </p>
-                            </li>
-                        </ul>
+                            This research mainly focuses on the development of applications which makes use of the microservices architecture. 
+                            The research component of the project would be to find out whether it is possible scale the micro services.
+                             The domain which it focuses on is cloud computing.With the growth of the internet infrastructure it has become necessary to introduce methods of auto scaling the systems based on requirements. There now exist systems which do not follow the monolith architecture, but rather distribute them into multiple modules / components that will perform a highly focused and completely decoupled task such as Unix Commands ex:- ls, While giving out a complete Business Scenario by combining each of these components together. This architecture is known as the micro service architecture. This architecture is on standard deployed onto a system known as the docker. By normal standards, a single microservice will be deployed as a single docker container but it is possible to run multiple microservices in a single container as well. The problem which we had identified with the existing system is that it does not allow the system to be horizontally scalable. That is if the load for a particular docker VM increases, another instance will need to be created on a distributed system to balance out the processing. The current system needs heavy human interaction to manage each of these docker containers to achieve the expected performance of the system , Our proposed system will be to implement a load balancer which would be able to automatically scale the containers while not requiring any human interaction at all and distribute the load among multiple running instances of the  containers based on the analysis performed from the data gathered using our system.
                     </div>
                 </div>
             </div> 
+
+            <div class="row tab-pane fade" id="survey">
+                    <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                        <div class="entry-header">
+                                <h3> &nbsp; </h3>
+                            </div>
+                            <div class="entry-content">
+                                <ul class="list-group">
+                                    <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                                        <p>
+                                            <h4>Round-Robin Scheduling Algorithm</h4>
+                                            Round-Robin Is only applicable to the circumstances in which all the nodes in cluster have the same processing ability, and it is the simplest one which could most easily be carried out.
+        
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                                        <p>
+                                            <h4>Weighted Round-Robin Scheduling Algorithm</h4>
+                                            Is designed to better handles servers with different processing capacities. Each server can be assigned a weight, an integer value that indicates the processing capacity.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                                        <p>
+                                            <h4>SWIM</h4>
+                                            This is a protocol that was developed for checking the live status of the micro services individually. This is used for large scale process groups that is a collection of micro services. Each neighboring micro services will be receiving a heartbeat from the other to ensure that the live status of the micro service. This was developed because of scalability issues, of the traditional heartbeat protocols which strained the network as the no of micro services deployed increases with the increased network load, it compromises the response time of the application. That is it consumes the computational resources of the server. [6] 
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                                        <p>
+                                            <h4>Docker</h4>
+                                            In the research conducted by David Jaramillo, Duy V Nguyen and Robert Smart from Cloud Engineering Services [7], IBM has discussed the concepts in Micro services. They have mentioned the drawbacks of the monolith applications where almost all of the application developers or stakeholders having the considerable amount of attention and described about the areas which needed to be consider most when developing an application for any architectural design. They have identified “Micro services” architectural pattern as a solution to almost every mentioned issues. They have presented in a way of how micro services is a most beneficial solution compare with traditional monolith application where highly coupled component’s deployment and hardness of the scalability etc. 
+        Since the Docker has been introduced they did analyze about the each component in Docker and explained how the Docker can help to build the applications and utilize the micro services’ core concepts etc. Even though Docker itself is not a silver bullet which can address every challenges of building a micro service architecture.
+        
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>       
+                    </div>
+            </div>
 
             <div class="row tab-pane fade" id="research-gap">
                     <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
